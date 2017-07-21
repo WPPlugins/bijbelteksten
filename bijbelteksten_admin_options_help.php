@@ -1,0 +1,38 @@
+<?php
+$text  = "<h2>" . __( 'Algemene Instellingen', 'Bijbelteksten' ) . "</h2>";
+$text .= "<h3>" . __( 'Standaard Bijbelvertaling', 'Bijbelteksten' ) . "</h3>";
+$text .= "<p>" . sprintf( __( 'Deze plugin ondersteund alle Nederlandse vertalingen die worden aangeboden op <a href="http://www.debijbel.nl">DeBijbel.nl</a>. Standaard wordt de Nieuwe Bijbelvertaling toegepast. Deze vertaling is voor iedereen vrij te raadplegen, zonder registratie. De NBG-51 vertaling en de Statenvertaling zijn weliswaar ook gratis te raadplegen via het Nederlands Bijbelgenootschap, maar hiervoor is wel een account vereist. De overige opties in deze plugin zijn enkel toegankelijk voor betalende leden van het Nederlands Bijbelgenootschap.', 'Bijbelteksten' ), 'http://www.biblegateway.com/' ) . "</p>";
+$text .= "<h3>" . __( 'Werk modus', 'Bijbelteksten' ) . "</h3>";
+$text .= "<p>" . __('Deze plugin kan op twee manieren werken: het kan automatisch links maken van je bijbelverwijzingen elke keer als de pagina geladen wordt (dynamisch), of het voegt codes toe aan teksten die je toevoegd of bewerkt (statisch). Alleen als je website heel veel bezocht wordt en je vrij veel gebruik maakt van verwijzingen naar bijbelteksten, raden wij je aan voor de optie STATISCH te kiezen. Voor de meeste websites is echter de optie DYNAMISCH het meest geschikt.', 'Bijbelteksten') . "</p>";
+$text .= "<h4>" . __('Waar je op moet letten als je voor de statische modus kiest:', 'Bijbelteksten') . "</h4>";
+$text .= "<ol>";
+$text .= "<li>" . __('Als het Nederlands Bijbelgenootschap of Bible Gateway hun website veranderen, kan dit betekenen dat de gemaakte links niet meer werken. Je zult alle gemaakte links dan handmatig moeten aanpassen! Bijbelsites veranderen regelmatig dus dit is een groot risico!', 'Bijbelteksten') . "</li>";
+$text .= "<li>" . __('Als je kiest voor een andere standaardvertaling zullen de reeds gemaakte links niet worden aangepast, dit zul je handmatig moeten doen!', 'Bijbelteksten') . "</li>";
+$text .= "</ol>";
+$text .= "<h3>" . __( 'Link CSS Class', 'Bijbelteksten' ) . "</h3>";
+$text .= "<p>" . __('Met deze CSS Class kun je de links vormgeven zoals jij dat wilt. Een beetje kennis van CSS is hiervoor wel noodzakelijk. In veel gevallen worden de links echter al prima vormgegeven door Wordpress zelf of de Theme die je gebruikt.', 'Bijbelteksten') . "</p>";
+$text .= "<h3>" . __( 'Link openen in nieuw venster', 'Bijbelteksten' ) . "</h3>";
+$text .= "<p>" . __('Als je kiest voor JA dan wordt de code target="_blank" toegevoegd aan de link, waardoor deze automatisch opent in een nieuw venster. Dit is handig als je wilt dat je website niet verdwijnt in de browser.', 'Bijbelteksten') . "</p>";
+$text .= "<h2>" . __( 'Credits: "Ere wie ere toekomt"', 'Bijbelteksten' ) . "</h2>";
+$text .= "<h3>" . __( 'Originele Perl MovableType Module:', 'Bijbelteksten' ) . "</h3>";
+$text .= "<ul>";
+$text .= "<li>" . sprintf( __( '<a href="%s">Dean Peters</a>', 'Bijbelteksten' ), 'http://www.HealYourChurchWebSite.com/') . "</li>";
+$text .= "</ul>";
+$text .= "<h3>" . __( 'Overige credits voor de Perl Movable Type Module:', 'Bijbelteksten' ) . "</h3>";
+$text .= "<ul>";
+$text .= "<li>" . sprintf( __( '<a href="%s">Jonathan Fox</a>', 'Bijbelteksten' ), 'http://vulpecula.us/~jon/' ) . "</li>";
+$text .= "<li>" . sprintf( __( '<a href="%s">Jason Rust</a>', 'Bijbelteksten' ), 'http://rustyparts.com/blip/' ) . "</li>";
+$text .= "<li>" . sprintf( __( '<a href="%s">Joseph Markey</a>', 'Bijbelteksten' ), 'http://thegreatlands.com/archives/000032.html' ) . "</li>";
+$text .= "<li>" . sprintf( __( '<a href="%s">Brian A. Thomas</a>', 'Bijbelteksten' ), 'http://www.brianathomas.com/archives/2005/01/17/editing-scripturizer/' ) . "</li>";
+$text .= "<li>" . sprintf( __( '<a href="%s">Rob Hulson</a>', 'Bijbelteksten' ), 'http://www.robhulson.com/archives/000073.html' ) . "</li>";
+$text .= "</ul>";
+$text .= "<h3>" . __( 'Omzetting naar de PHP WordPress Plugin:', 'Bijbelteksten' ) . "</h3>";
+$text .= "<ul>";
+$text .= "<li>" . sprintf( __( '<a href="%s">Glen Davis</a>', 'Bijbelteksten' ), 'http://www.glenandpaula.com/' ) . "</li>";
+$text .= "<li>" . sprintf( __( '<a href="%s">Laurence O\'Donnell</a>', 'Bijbelteksten' ), 'http://laurenceo.com/' ) . "</li>";
+$text .= "</ul>";
+$text .= "<h3>" . __( 'Ontwikkeling Nederlandse versie', 'Bijbelteksten' ) . "</h3>";
+$text .= "<ul>";
+$text .= "<li>" . sprintf( __( '<a href="%s">Ruben Hadders</a>', 'Bijbelteksten' ), 'mailto:plugin@bijbelsecultuur.nl' ) . "</li>";
+$text .= "</ul>";
+?>
